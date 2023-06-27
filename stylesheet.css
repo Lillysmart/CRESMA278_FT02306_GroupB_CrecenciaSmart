@@ -1,6 +1,14 @@
-h1 {color: crimson;}
+
+h1{color: crimson;}
 .p1{ font-style: oblique;
      font-size: larger;}
+
 .list1{list-style: circle;}
+
 h3{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 .list2{list-style: circle;}
+
+#change{ color :red;}
+.navigate{background-color:rgb(172, 148, 148);
+          width: 463px;
+          height: 80px;}
