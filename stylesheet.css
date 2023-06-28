@@ -29,10 +29,15 @@ h3 {
 
 .Topinfo {
   background: lightgrey;
-  padding-left: 890px;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-left: 340px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
+#move { padding-left:10px ;}
+
 img {
   border-style: solid;
 
@@ -40,7 +45,8 @@ img {
   border-right-width: 10px;
   border-color: beige;
   border-radius: 50%; 
-
 }
+ 
+#p1{padding: right 700px;}
 
  
