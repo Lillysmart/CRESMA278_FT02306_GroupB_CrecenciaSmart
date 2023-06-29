@@ -1,5 +1,5 @@
 h1 {
-  color: crimson;
+  color: palevioletred;
 }
 #p1 {
   font-style: oblique;
@@ -42,11 +42,20 @@ img {
   border-radius: 50%; 
 }
  
-nav { background-color: pink;
+nav { background-color:rgb(193, 193, 222);
   margin-left:300px;
   margin-right: 600px;
-   padding-top: 10px;
-   padding-bottom: 10px;}
+   padding-top: 5px;
+   padding-bottom: 5px;
+  }
+    
+article{ padding-left:30px;}
+ 
+footer {padding-left: 30px;
+  padding-bottom: 20px;
+        border-style: ridge;
+        border-color: black;
+}
 
  
 
