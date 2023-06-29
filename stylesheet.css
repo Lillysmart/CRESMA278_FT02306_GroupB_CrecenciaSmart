@@ -51,11 +51,10 @@ nav { background-color:rgb(193, 193, 222);
     
 article{ padding-left:30px;}
  
-footer {padding-left: 30px;
-  padding-bottom: 20px;
+.footer {
         border-style: ridge;
         border-color: black;
-}
+        }
 
  
 
