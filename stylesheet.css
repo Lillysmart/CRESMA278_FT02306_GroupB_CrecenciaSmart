@@ -1,13 +1,11 @@
+
 h1 {
   color: palevioletred;
+  
 }
-#p1 {
-  font-style: oblique;
+#p1 {color: rgb(249, 240, 240);
+  font-style: normal;
   font-size: larger;
-}
-
-.list1 {
-  list-style: circle;
 }
 
 h3 {
@@ -22,31 +20,32 @@ h3 {
   color: red;
 }
 
-.topinfo {
-  background: lightgrey;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 340px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-}
 
 img {
+  width: 250px;
   border-style: solid;
   border-left-width: 10px;
   border-right-width: 10px;
-  border-color: beige;
-  border-radius: 50%; 
-  padding-left: 10px;
+  border-color: #8d7b82;
+  border-radius: 20%;
 }
  
-nav { background-color:rgb(193, 193, 222);
-  margin-left:300px;
-  margin-right: 600px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+body{padding: 30px;}
+
+#navigate { position: fixed;
+  top: 0px;
+  left: 10px;
+  display: flex;
   }
+
+  ul{list-style: none;
+     display: flex;}
+
+  #one{padding: 10px;}
+  #two{padding: 20px;}
+  #three{padding: 30px;}
+  #four{padding: 40px;}
+
     
 article{ padding-left:30px;}
  
@@ -55,7 +54,17 @@ article{ padding-left:30px;}
         border-color: black;
         }
 
- 
+ .topinfo {
+          background-image: url("hero_picture.jpg");
+          background-size: cover;
+          background-position:top ;
+          background-repeat: no-repeat;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           padding-left: 100px;
+           padding-top: 10px;
+           padding-bottom: 10px;}
+   
 
     
 
