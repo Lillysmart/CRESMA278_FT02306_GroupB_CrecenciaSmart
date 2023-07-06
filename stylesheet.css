@@ -1,9 +1,8 @@
-
 h1 {
   color: palevioletred;
-  
 }
-#p1 {color: rgb(249, 240, 240);
+#p1 {
+  color: rgb(249, 240, 240);
   font-style: normal;
   font-size: larger;
 }
@@ -20,7 +19,6 @@ h3 {
   color: red;
 }
 
-
 img {
   width: 250px;
   border-style: solid;
@@ -29,49 +27,63 @@ img {
   border-color: #8d7b82;
   border-radius: 20%;
 }
- 
-body{padding: 30px;}
 
-#navigate { position: fixed;
+body { position: relative;
+  padding: 30px;
+}
+
+#navigate {
+  position: fixed;
   top: 0px;
   left: 10px;
   display: flex;
-  }
+}
 
-  ul{list-style: none;
+.list1 { 
+  list-style: none;
   display: flex;
-justify-content: space-between;}
- 
-
-#one{ margin-right: 10px;}
-#two{ margin-right: 10px;}   
-#three{ margin-right: 10px;}
-#four{ margin-right: 10px;}
-    
-
-
   
-    
-article{ padding-left:30px;}
- 
-.footer {
-        border-style: ridge;
-        border-color: black;
+}
+
+#one {
+  padding-left: 10px;
+}
+#two {
+  padding-left: 40px;
+}
+#three {
+  margin-right: 50px;
+}
+#four {
+  margin-right: 60px;
+}
+
+article {
+  padding-left: 30px;
+}
+
+.footer { padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  border-color: black;
+  background-color: #8d7b82;
+}
+
+.topinfo {
+  background-image: url("hero_picture.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+
+}
+  /*mobile*/
+   @media only screen and (max-width: 600px) {
+    h1{ font-size: 1rem;
         }
-
- .topinfo {
-          background-image: url("hero_picture.jpg");
-          background-size: cover;
-          background-position:top ;
-          background-repeat: no-repeat;
-           margin-top: 20px;
-           margin-bottom: 20px;
-           padding-left: 100px;
-           padding-top: 10px;
-           padding-bottom: 10px;}
-   
-
+  } 
     
-
-
- 
