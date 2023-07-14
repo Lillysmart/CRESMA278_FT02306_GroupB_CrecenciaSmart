@@ -77,9 +77,11 @@ article {
   padding-top: 10px;
   padding-bottom: 10px;
 } 
+
+/* Resume 7.2*/
 #hero {
   background-image: url("hero_picture.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
   }
@@ -93,6 +95,7 @@ article {
     font-size: 1rem;
   }
   #p1{font-size: small;}
+.footer{ margin: 0px;}
   } 
 
   /*tablet*/
